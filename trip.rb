@@ -13,8 +13,8 @@ puts "Where would you like to eat?"
 eat = "pizza"
 
 puts "How many nights do you want to stay?"
-nights = gets.chomp
+nights = "4"
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts "You will be going to #{stay} and eat #{eat} for #{nights}."
+puts "You will be going to #{stay} and eat #{eat} for #{nights} nights."
